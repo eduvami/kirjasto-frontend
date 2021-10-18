@@ -1,3 +1,30 @@
+Kirjasto Frontend 📚
+===
+
+Description
+--
+
+This is the frontend repo for the Digitalents Academy Library Application 📚
+
+Tools and Libraries
+--
+* Create-react-app bundle
+* [MUI](https://mui.com/)
+* [React Router](https://reactrouter.com/)
+
+
+File Structure
+--
+(Coming Soon)
+
+
+Authors
+--
+Tea ([teatea136](https://github.com/teatea136))
+
+---
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +95,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
