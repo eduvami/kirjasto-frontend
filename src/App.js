@@ -29,7 +29,8 @@ const App = () => {
     return (
         <div>
             <BookInfo ratingValue={rating}/>
-            
+            <Comments/>
+            <Recommendations/>
         </div>
     )
 }
