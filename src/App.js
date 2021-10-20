@@ -1,38 +1,14 @@
 import React, { useState, useEffect } from "react"
-import bookService from './services/book' 
-import Rating from '@mui/material/Rating'
-
-const BookInfo = (props) => {
-    
-    return (
-        <Rating name="half-rating-read" value={props.ratingValue} precision={0.5} readOnly />
-    )
-} 
+import bookService from './services/kirjasto'
+import MainPage from './pages/mainPage'
+import SingleBookPage from './pages/singleBookPage'
 
 
+// Pages router here
 
-const Comments = (props) => {
-
-}
-
-const Recommendations = (props) => {
-
-}
-
-const 
 
 const App = () => {
-    const [rating, setRating] = useState('')
-
-
-
-    return (
-        <div>
-            <BookInfo ratingValue={rating}/>
-            <Comments/>
-            <Recommendations/>
-        </div>
-    )
+    return (<MainPage/>)
 }
 
 export default App
