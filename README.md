@@ -5,17 +5,17 @@ Description
 --
 
 This is the frontend repo for the Digitalents Academy Library Application 📚
+Kirjasto is a Digitalents Academy project made by the workshop interns in colloboration. 
+The main repositiory for the project is at [digitalents-academy/kirjasto](https://github.com/digitalents-academy/kirjasto)
+
+[Moodboard](https://drive.google.com/file/d/1wAfc1jbMeiOFjges9ODnTLJSu0KuhBFP/view?usp=sharing) with fonts and color palette
+(If unused can be deleted)
 
 Tools and Libraries
 --
 * Create-react-app bundle
 * [MUI](https://mui.com/)
 * [React Router](https://reactrouter.com/)
-
-
-File Structure
---
-(Coming Soon)
 
 
 Authors
