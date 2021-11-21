@@ -1,0 +1,24 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('myFirstDatabase');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+db.books.drop();
+
+// Insert a few documents into the sales collection.
+db.books.insertMany([
+  { id: 1, bookName: 'Snow', authorName: 'Jon', pLanguage: 'java', availability: true, rating: 5 },
+    { id: 2, bookName: 'Lannister', authorName: 'Cersei', pLanguage: 'java', availability: true, rating: 2 },
+    { id: 3, bookName: 'Lannister', authorName: 'Jaime', pLanguage: 'java', availability: true, rating: 5 },
+    { id: 4, bookName: 'Stark', authorName: 'Arya', pLanguage: 'java', availability: true, rating: 1.5 },
+    { id: 5, bookName: 'Targaryen', authorName: 'Daenerys', pLanguage: 'java', availability: false, rating: null },
+    { id: 6, bookName: 'Melisandre', authorName: null, pLanguage: 'java', availability: true, rating: 1 },
+    { id: 7, bookName: 'Clifford', authorName: 'Ferrara', pLanguage: 'java', availability: true, rating: 4 },
+    { id: 8, bookName: 'Frances', authorName: 'Rossini', pLanguage: 'java', availability: false, rating: 3 },
+    { id: 9, bookName: 'Roxie', authorName: 'Harvey', pLanguage: 'java', availability: true, rating: 5 }
+]);
