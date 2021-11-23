@@ -1,0 +1,15 @@
+version: '3'
+services:
+  kirjasto-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8081:80"
+
+  kirjasto-backend:
+    build:
+      context: ..\kirjasto-backend\kirjasto-backend-v1\kirjasto-backend-v1\
+      dockerfile: Dockerfile
+    ports:
+      - "8888:80"
